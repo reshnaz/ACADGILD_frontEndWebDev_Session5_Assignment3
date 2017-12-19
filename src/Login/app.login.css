@@ -1,0 +1,12 @@
+/* Styling the components */
+
+html, body{
+    margin: 0;
+    padding: 0;
+    background: rgb(225, 240, 157);
+}
+
+/* Giving a rounded border to the text box and button */
+input, button{
+    border-radius: 5px;
+}
