@@ -9,17 +9,20 @@
   <link rel="icon" type="image/x-icon" href="favicon.ico">
 </head>
 <body>
-  <!-- We have included an input text box and button -->
+  <!-- We have included input text boxes and button -->
 
   <!-- Using selector of login component as root -->
     <login-root>
         <div id="login">
           <br><br><br>
-          <div style="text-align:center">
+          <div style="text-align:center" class="form-group col-md-12">
             <h1>Session-5, Assignment-3</h1>
             <br>
-            <input type="text" placeholder="First Name">
-            <button>Login</button> 
+            <input type="text" class="form-control" placeholder="somebody@example.com">
+            <br>
+            <input type="password" class="form-control" placeholder="Password">
+            <br>
+            <button class="btn btn-block">Login</button> 
           </div>
         </div>
     </login-root>
